@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		150167DA1C3F9555003A67DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150167D91C3F9555003A67DF /* AppDelegate.swift */; };
-		150167DC1C3F9555003A67DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150167DB1C3F9555003A67DF /* ViewController.swift */; };
+		150167DC1C3F9555003A67DF /* PTPDrawImagePadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150167DB1C3F9555003A67DF /* PTPDrawImagePadViewController.swift */; };
 		150167DF1C3F9555003A67DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150167DD1C3F9555003A67DF /* Main.storyboard */; };
 		150167E21C3F9555003A67DF /* PTPDrawImageAnnotationDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 150167E01C3F9555003A67DF /* PTPDrawImageAnnotationDemo.xcdatamodeld */; };
 		150167E41C3F9555003A67DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150167E31C3F9555003A67DF /* Assets.xcassets */; };
 		150167E71C3F9555003A67DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150167E51C3F9555003A67DF /* LaunchScreen.storyboard */; };
 		150167F21C3F9555003A67DF /* PTPDrawImageAnnotationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150167F11C3F9555003A67DF /* PTPDrawImageAnnotationDemoTests.swift */; };
 		150167FD1C3F9555003A67DF /* PTPDrawImageAnnotationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150167FC1C3F9555003A67DF /* PTPDrawImageAnnotationDemoUITests.swift */; };
+		1501680B1C3F95BA003A67DF /* PTPDrawImagePadSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1501680A1C3F95BA003A67DF /* PTPDrawImagePadSettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* Begin PBXFileReference section */
 		150167D61C3F9555003A67DF /* PTPDrawImageAnnotationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PTPDrawImageAnnotationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		150167D91C3F9555003A67DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		150167DB1C3F9555003A67DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		150167DB1C3F9555003A67DF /* PTPDrawImagePadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTPDrawImagePadViewController.swift; sourceTree = "<group>"; };
 		150167DE1C3F9555003A67DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		150167E11C3F9555003A67DF /* PTPDrawImageAnnotationDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PTPDrawImageAnnotationDemo.xcdatamodel; sourceTree = "<group>"; };
 		150167E31C3F9555003A67DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		150167F81C3F9555003A67DF /* PTPDrawImageAnnotationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTPDrawImageAnnotationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		150167FC1C3F9555003A67DF /* PTPDrawImageAnnotationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTPDrawImageAnnotationDemoUITests.swift; sourceTree = "<group>"; };
 		150167FE1C3F9555003A67DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1501680A1C3F95BA003A67DF /* PTPDrawImagePadSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTPDrawImagePadSettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				150167D91C3F9555003A67DF /* AppDelegate.swift */,
-				150167DB1C3F9555003A67DF /* ViewController.swift */,
+				150167DB1C3F9555003A67DF /* PTPDrawImagePadViewController.swift */,
+				1501680A1C3F95BA003A67DF /* PTPDrawImagePadSettingsViewController.swift */,
 				150167DD1C3F9555003A67DF /* Main.storyboard */,
 				150167E31C3F9555003A67DF /* Assets.xcassets */,
 				150167E51C3F9555003A67DF /* LaunchScreen.storyboard */,
@@ -259,9 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				150167DC1C3F9555003A67DF /* ViewController.swift in Sources */,
+				150167DC1C3F9555003A67DF /* PTPDrawImagePadViewController.swift in Sources */,
 				150167DA1C3F9555003A67DF /* AppDelegate.swift in Sources */,
 				150167E21C3F9555003A67DF /* PTPDrawImageAnnotationDemo.xcdatamodeld in Sources */,
+				1501680B1C3F95BA003A67DF /* PTPDrawImagePadSettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
